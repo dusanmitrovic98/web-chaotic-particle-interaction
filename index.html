@@ -64,3 +64,4 @@
               const targetX = this.x + Math.cos(angle) * minDistance;
               const targetY = this.y + Math.sin(angle) * minDistance;
 
+              this.speedX += (targetX - particle.x) * 0.02;
